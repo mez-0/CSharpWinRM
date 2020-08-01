@@ -109,17 +109,11 @@ On execution, if successful, it should look something like this:
 If the `ReturnValue` is 0, then all is well. It will also give the `ProcessId`:
 
 ```
-Windows PowerShell
-Copyright (C) 2013 Microsoft Corporation. All rights reserved.
-
-PS C:\Users\Administrator> Get-Process -Pid 2604
+PS C:\Users\Administrator> Get-Process -Pid 1344
 
 Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName
 -------  ------    -----      ----- -----   ------     -- -----------
-    399      31    63892      66152   600     0.56   2604 powershell
-
-
-PS C:\Users\Administrator>
+    413      32    69676      71440   599     0.58   1344 powershell
 ```
 
 The error codes can be seen [here](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-return-codes).
