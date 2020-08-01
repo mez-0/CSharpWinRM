@@ -138,5 +138,11 @@ Once built, merge with:
 .\ILMerge.exe /out:.\CSharpWinRM_merged.exe .\CSharpWinRM.exe .\Interop.WSManAutomation.dll
 ```
 
+If, for whatever reason, the dll isnt available; its in:
+
+```
+CSharpWinRM/CSharpWinRM/lib/WsmAuto.dll
+```
+
 
 
