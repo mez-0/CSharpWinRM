@@ -144,5 +144,10 @@ If, for whatever reason, the dll isnt available; its in:
 CSharpWinRM/CSharpWinRM/lib/WsmAuto.dll
 ```
 
+## References
 
-
+1. [C# WSManSession Examples](https://csharp.hotexamples.com/examples/-/IWSManSession/-/php-iwsmansession-class-examples.html)
+2. [IWSManSession](https://docs.microsoft.com/en-us/windows/win32/api/wsmandisp/nn-wsmandisp-iwsmansession)
+3. [IWSManSession::Identify](https://docs.microsoft.com/en-us/windows/win32/api/wsmandisp/nf-wsmandisp-iwsmansession-identify)
+4. [Windows Remote Management and WMI](https://docs.microsoft.com/en-us/windows/win32/winrm/windows-remote-management-and-wmi)
+5. [Using Remote Powershell/WinRM within C#/ASP.NET RRS feed](https://social.microsoft.com/Forums/en-US/d6ec5087-33dc-4967-8183-f8524683a3ea/using-remote-powershellwinrm-within-caspnet)
