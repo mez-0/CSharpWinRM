@@ -204,7 +204,7 @@ namespace CSharpWinRM
             Console.WriteLine("[*] Usage: .\\CSharpWinRM.exe <Target> [Domain] [Username] [Password] <Command>");
             Console.WriteLine("[*] Example 1: .\\CSharpWinRM.exe 192.168.0.1 DomainName Administrator Password123! \"powershell.exe -e blah\"");
             Console.WriteLine("[*] Example 2: .\\CSharpWinRM.exe 192.168.0.1 \"powershell.exe -e blah\"");
-            Environment.Exit(1);
+            return
         }
     }
 }
